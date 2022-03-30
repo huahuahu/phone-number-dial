@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         webview.frame = view.bounds
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .play, target: self, action: #selector(callOpenUrl))
         loadHtml()
+        self.title = "Launch Dial fail.  "
     }
 
     func loadHtml() {
